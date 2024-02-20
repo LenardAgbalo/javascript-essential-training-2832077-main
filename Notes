@@ -1,0 +1,32 @@
+JavaScrip Totorials Essentials
+https://www.linkedin.com/learning/javascript-essential-training
+
+- async
+Browser downloads JavaScrip in parallel while HTML renders. When JavaSCrip is fully loaded, rendering stops while JavaScript is executed.
+  <script src="script.js" async></script>
+
+- defer
+Browser downloads JavaScript in parallel while HTML renders, then defers execution of JavaScript until HTML rendering is complete.
+  <script src="script.js" defer></script>
+
+- Objects have features that allow us to change their properties.
+- Methods Property-changing feature inside objects
+
+const backpack ={
+name: "Everyday Backpack", <-- Properties defined using key-value pairs.
+strapLength:{
+left: 26,
+rigth: 26,
+},
+};
+
+"this" keyword refers to the current object.
+
+bracket notation
+
+Creating Classes
+Class declaration: class Name {}
+Class expression: const Name = class {}
+
+3. Ojbect 03_10 parameters and properties explanation
+   Continue 3. Ojbects object Constructors
