@@ -29,5 +29,72 @@ Class declaration: class Name {}
 Class expression: const Name = class {}
 
 3. Ojbect 03_10 parameters and properties explanation
-   Continue 3. Ojbects object Constructors
-   Test
+
+- Date Object
+  Instance method
+  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+
+- Concat (Mix of HTML and JavaScript)
+  const content ="<h1>" + everydayPack.name + "</h1>";
+
+5. DOM
+
+- Document.querySelectorAll()
+  https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll
+
+- Document.querySelector()
+  https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+
+- Element.getElementsByClassName()
+  https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName
+
+- Element.getElementsById()
+  https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+
+- Element.className()
+  https://developer.mozilla.org/en-US/docs/Web/API/Element/className
+
+- Element.classList()
+  https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+- Toggle
+  document.querySelector("main li:first-child").classList.remove("new-class")
+  on and off (True and False)
+
+- Element.attributes
+  https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes
+- Has Key and Value
+- Can manipulate Key and Value
+- has
+  document.querySelector("img").hasAttribute("src")
+- get
+  document.querySelector("img").getAttribute("src")
+- set
+  document.querySelector("img").setAttribute("alt", "A Drawing of a Backpack")
+- remove
+  document.querySelector("img").removeAttribute("alt", "A Drawing of a Backpack")
+
+- ElementCSSInlineStyle.style
+  https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style
+
+- Document.createElement()
+  https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+
+- Element: append() method
+  https://developer.mozilla.org/en-US/docs/Web/API/Element/append
+
+- Element:prepend() method
+  https://developer.mozilla.org/en-US/docs/Web/API/Element/prepend
+
+- Node.appendChild()
+  https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
+
+- Node:replaceChild()
+  https://developer.mozilla.org/en-US/docs/Web/API/Node/replaceChild
+
+- Node: insertBefore() method
+  https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore
+
+- Element: insertAdjacentHTML() method
+  https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML
+
+Continue 6 Sidebar Varable and Data Types
