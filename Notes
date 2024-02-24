@@ -97,4 +97,8 @@ Class expression: const Name = class {}
 - Element: insertAdjacentHTML() method
   https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML
 
-Continue 6 Sidebar Varable and Data Types
+- Naming Objects
+  The create of containers to put object within
+
+- Variable
+  A container with some peices of data
