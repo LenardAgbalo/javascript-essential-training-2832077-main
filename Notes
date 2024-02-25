@@ -102,3 +102,49 @@ Class expression: const Name = class {}
 
 - Variable
   A container with some peices of data
+
+- Array
+  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+- Push
+- unshift - add in the first in array
+
+- shift - getting the first in array
+- pop - getting in the end of array
+
+// Traditional Function
+function (a){
+return a + 100;
+}
+
+// Arrow Function Break Down
+
+1. Remove the word "function" and place arrow between the argument and opening body bracket
+   (a) => {
+   return a + 100;
+   }
+
+2. Remove the body brackets and word "return" -- the return is implied
+   (a) => a + 100;
+
+3. Remove the argument parentheses
+   a => a + 100;
+
+- Looping though content
+
+for (const item of stuff){
+
+}
+
+for (const singleObject in nestedObject){
+
+}
+
+- TypedArray.prototyp.map()
+
+const uint\* = new Uint8Array([25,36,48]);
+const roots = uint8.map(Math.sqrt);
+
+console.log(roots);
+
+- event reference
+  https://developer.mozilla.org/en-US/docs/Web/Events
